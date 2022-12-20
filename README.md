@@ -1,7 +1,7 @@
 # E-Campus
 
  Abstract
-- GUI (Graphical User Interface), Graphical User Interface are designs developed to help electronic devices use icons, and other visual graphics. HTML and CSS were used for the frontend part. CSS codes are taken from bootstrap for a better UI design. To increase efficiency and reduce complexity, the number of classes has been reduced as much as possible by using php and html codes for all classes in the same place.
+- GUI (Graphical User Interface), are designs developed to help electronic devices use icons, and other visual graphics. HTML and CSS were used for the frontend part. CSS codes are taken from bootstrap for a better UI design. To increase efficiency and reduce complexity, the number of classes has been reduced as much as possible by using php and html codes for all classes in the same place.
 ------
  Login
 - For the login, database and UI parts are created in different classes(LoginDB.php for database connection and to save instructors' and students' variables, index.php for UI to login). The index.php page asks for the user's SSN and password. If the SSN and password belong to the instructor and matches, user is directed to the Instructorpage.php or StudentPage.php according to the “role”. If the information are not matches, a warning occurs, and error message displayed.
